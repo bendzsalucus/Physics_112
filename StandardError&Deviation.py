@@ -10,12 +10,11 @@ def main():
     num1 = float(input("Enter first piece of data"))
     num2 = float(input("Enter second piece of data"))
     num3 = float(input("Enter third piece of data"))
-    num4 = float(input("Enter fourth piece of data"))
 
     #This calculates the average value
 
-    numsum = num1 + num2 + num3 + num4
-    numavg = numsum / 4
+    numsum = num1 + num2 + num3
+    numavg = numsum / 3
 
     # This prints the average value befroe continuing
 
@@ -23,7 +22,7 @@ def main():
 
     # This is the 1/(N-1)
 
-    n = 4
+    n = 3
     part_one = 1/(n-1)
 
     # this handles the summation part.
@@ -31,9 +30,9 @@ def main():
     sum1 = (num1 - numavg) * (num1 - numavg)
     sum2 = (num2 - numavg) * (num2 - numavg)
     sum3 = (num3 - numavg) * (num3 - numavg)
-    sum4 = (num4 - numavg) * (num4 - numavg)
 
-    sumtotal = sum1 + sum2 + sum3 + sum4
+
+    sumtotal = sum1 + sum2 + sum3
 
     # This handles combining part one and the summation then printing the result
 
